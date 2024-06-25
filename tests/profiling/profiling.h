@@ -12,7 +12,7 @@ extern const ubench_t ubenchs_snippet;
 #define ITER_PER_TEST     100
 #define TEST_COUNT        100
 
-#define UBENCH_PATTERN_REPEATS 50
+#define UBENCH_PATTERN_REPEATS 100
 
 unsigned int measure(ubench_t func);
 void profile_full();
